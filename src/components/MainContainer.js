@@ -34,6 +34,11 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* conditionally renders component based on value of the currentPage variable; calls the function */}
       {renderPage()}
+      <footer>
+          <a href='https://github.com/KrisSmith7'>Github</a>
+          <a href='https://www.linkedin.com/in/kristiansmith220/'>LinkedIn</a>
+          <a href='https://stackoverflow.com/users/17004629/krissmith7'>StackOverflow</a>
+      </footer>
     </div>
   );
 }
