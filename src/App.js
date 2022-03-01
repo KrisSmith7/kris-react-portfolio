@@ -1,14 +1,12 @@
 import './App.css';
-import About from './components/About';
-import Nav from './components/Nav';
+// import About from './components/About/About';
+// import Nav from './components/Nav';
+import MainContainer from "./components/MainContainer"
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <Nav />
-      </header>
-      <About />
+      <MainContainer />
     </div>
   );
 }
