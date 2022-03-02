@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
 import Resume from './Pages/Resume';
 import Contact from './Pages/Contact';
+import Footer from './Footer';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'Home') {
@@ -34,11 +35,8 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* conditionally renders component based on value of the currentPage variable; calls the function */}
       {renderPage()}
-      <footer>
-          <a href='https://github.com/KrisSmith7'>Github</a>
-          <a href='https://www.linkedin.com/in/kristiansmith220/'>LinkedIn</a>
-          <a href='https://stackoverflow.com/users/17004629/krissmith7'>StackOverflow</a>
-      </footer>
+      <Footer/>
+      
     </div>
   );
 }

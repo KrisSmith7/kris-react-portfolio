@@ -3,15 +3,17 @@ import React from 'react';
 //create nav links at top of page that conditionally renders component based on selected link
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav nav-tabs">
-            <li className="nav-item">
+        <ul className="bg-gradient-to-r from-purple to-orange navbar nav-tabs">
+            <li className="navbar-brand">
                 <a
                     href="#home"
                     //each link uses setter from useState in MainContainer file to change current page
                     onClick={() => handlePageChange('Home')}
                     className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
                 >
-                    Kris Smith
+                    <span className='text-2xl uppercase'>
+                        Kris Smith
+                        </span>
                 </a>
             </li>
             <li className="nav-item">

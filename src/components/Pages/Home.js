@@ -3,7 +3,9 @@ import React from "react";
 
 function Home () {
     return (
-        <h1>HI! Welcome.</h1>
+        <section className="h-screen bg-orange">
+            <h1 className="animate-[bounce_3s_infinite]">HI! Welcome.</h1>
+        </section>
     );
 };
 
