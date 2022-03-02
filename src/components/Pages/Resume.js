@@ -6,7 +6,7 @@ function Resume () {
         <div>
            <p> Click image to download a copy of my resume.</p> 
          <a
-        href="../../assets/images/resume/ksmithresumedownload.pdf"
+        href="resume/ksmithresumedownload.pdf"
         download="KSmith-resume"
       >
         <img className="resume-pic" src={resPhoto} alt="resume of developer"/>
