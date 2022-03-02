@@ -11,6 +11,10 @@
   width: 300px;
   height: 300px;
 }
+.resume-pic {
+  width: 500px;
+  height: 700px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
