@@ -61,6 +61,7 @@ const Portfolio = ({ projectInfo }) => {
               />
               <p>{image.desc}</p>
               </a>
+              <a href={image.githublink} target="_blank" >{image.githublink}</a>
               </div>
             ))}
           </div>
