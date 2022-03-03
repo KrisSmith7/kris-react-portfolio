@@ -47,25 +47,28 @@ const Portfolio = ({ projectInfo }) => {
     ]);
 
     return (
-        <div>
-          <div className="flex-row">
+        <section className="bg-gray py-8 px-4">
+          <div className="py-8">
+            <h1 className="font-bold">Portfolio</h1>
+          </div>
+          <div className="lg:inline-grid lg:grid-cols-2 lg:gap-12">
             {projPhotos.map((image, i) => (
-                <div>
+                <div className="shadow-xl shadow-purple/50">
             <a href={image.applink}>
               <img
                 src={ 
                 i === 5 ? require(`../../assets/images/projects/5.gif`) : require(`../../assets/images/projects/${i}.png`)}
                 alt={image.title}
-                className="portfolio-pic"
+                className="object-cover"
                 key={image.title}
               />
-              <p>{image.desc}</p>
+              {/* <p>{image.desc}</p> */}
               </a>
-              <a href={image.githublink} target="_blank" >{image.githublink}</a>
+              {/* <a href={image.githublink} target="_blank" >{image.githublink}</a> */}
               </div>
             ))}
           </div>
-        </div>
+        </section>
       );
     };
 
