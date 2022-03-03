@@ -1,7 +1,14 @@
 import React from 'react';
 
+
 //create nav links at top of page that conditionally renders component based on selected link
 function NavTabs({ currentPage, handlePageChange }) {
+  
+    
+    // useEffect(() => {
+
+    //   }, []);
+
     return (
         <ul className="bg-gradient-to-r from-purple to-orange navbar nav-tabs">
             <li className="navbar-brand">

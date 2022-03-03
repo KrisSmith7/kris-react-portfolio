@@ -1,33 +1,50 @@
 import React from "react";
 import resPhoto from "../../assets/images/resume/resumephoto.png";
 
-function Resume () {
+function Resume() {
     return (
-        <section className="h-screen">
+        <section className="h-fit-content w-full">
 
-        <div className="flex lg:justify-between">
+{/* container for "download" message */}
+            <div className="flex justify-center">
+            <div className="bg-purple border-2 border-orange p-2 rounded-sm"><a
+                    href="resume/ksmithresumedownload.pdf"
+                    download="KSmith-resume"
+                    className="no-underline uppercase text-white text-xl">
+                    Click image to download My Resume</a></div>
+            </div>
+          
+            <div className="inline-flex items-center">
+           {/* image of resume as a link */}
+             <div className="z-[100] w-screen flex justify-center">
+                    <a
+                        href="resume/ksmithresumedownload.pdf"
+                        download="KSmith-resume" >
+                        <img className="resume-pic object-cover shadow-orange shadow-md" src={resPhoto} alt="resume of developer" />
+                    </a>
+                </div>
+              
 
-            <div className="absolute lg:h-full lg:w-1/2">
-                <div className="relative left-20 rounded-full bg-orange h-60 w-60"></div>
-                <div className="relative left-8 bottom-12 rounded-full bg-purple h-20 w-20"></div>
-                <div className="relative left-12 top-4 rounded-full bg-white border-4 border-double border-orange h-12 w-12"></div>
+
+
+              {/* decorative circles */}
+                <div className="absolute inset-x-0 inline-flex justify-center items-center h-screen w-screen bg-purple/25">
+                    <div className="absolute top-36 left-12 rounded-full bg-orange border-2 border-purple h-48 w-48"></div>
+                    <div className="absolute right-24 rounded-full bg-purple h-24 w-24"><div className="border-orange border-4 rounded-full h-24 w-24 relative top-12 left-12"></div></div>
+                    <div className="absolute top-36 right-24 rounded-full bg-white border-4 border-double border-orange h-12 w-12"></div>
+                    <div className="absolute top-48 left-12 rounded-full bg-purple border-4 border-orange h-36 w-36"></div>
+                    <div className="absolute bottom-12 right-12 rounded-full bg-orange border-2 border-purple h-48 w-48"></div>
+                    <div className="absolute bottom-48 left-24 rounded-full bg-purple h-24 w-24"><div className="border-orange border-4 rounded-full h-24 w-24 relative top-12 left-12"></div></div>
+                    <div className="absolute bottom-24 left-12 rounded-full bg-white border-4 border-double border-orange h-12 w-12"></div>
+                    <div className="absolute bottom-24 rounded-full bg-purple border-4 border-orange h-36 w-36"></div>
+                </div>
+
+
+
+               
+
             </div>
 
-        <div>
-           <p>Click image to <span className="font-bold skew-y-6 text-white text-xl">download</span> a copy of my resume.</p> 
-        </div>
-
-        
-
-           <div>
-                <a
-                href="resume/ksmithresumedownload.pdf"
-                download="KSmith-resume"
-            >
-                <img className="resume-pic" src={resPhoto} alt="resume of developer"/>
-            </a>
-        </div>
-        </div>
         </section>
     );
 };
