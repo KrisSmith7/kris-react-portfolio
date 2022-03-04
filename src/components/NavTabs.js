@@ -10,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     //   }, []);
 
     return (
-        <ul className="bg-gradient-to-r from-purple to-orange navbar nav-tabs">
+        <ul className="bg-gray navbar nav-tabs">
             <li className="navbar-brand">
                 <a
                     href="#home"
