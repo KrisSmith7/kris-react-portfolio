@@ -56,6 +56,8 @@ function Contact() {
                     <p>Phone: (919) 410-7372<br />
                       Email: krissmithcodes@gmail.com
                     </p>
+
+
                   </div>
 
                   {/* end of gradient div */}

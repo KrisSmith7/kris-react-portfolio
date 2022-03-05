@@ -44,10 +44,12 @@ const Portfolio = ({ projectInfo }) => {
 
   return (
 
-    <section className="py-8 px-4">
-      <div className="">
-        <h1 className="">Portfolio</h1>
+    <section className="bg-gray py-8 px-4">
+      <div className="w-1/2 h-24 shadow-xl rounded-lg -skew-x-12 bg-royal-purple/25">
+        <blockquote className="text-purple font-chicle w-1/2 h-full font-semibold">You can't use up creativity. The more you use, the more you have. -Maya Angelou</blockquote>
       </div>
+
+
 
 
       <div
