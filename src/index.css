@@ -18,10 +18,29 @@
     @apply text-lg
   };
 
-  li {
-    @apply font-shrikhand;
-    @apply text-xl
+  a .nav-link .active {
+    @apply bg-purple
   }
+
+ 
+}
+
+ @layer components{
+ 
+  .nav {
+    @apply bg-orange
+  }
+
+  .nav-tabs .nav-link {
+    @apply font-shrikhand;
+    @apply text-lg;
+    @apply text-royal-purple;
+    @apply uppercase;
+   
+    
+  };
+
+
 }
 
 
@@ -39,3 +58,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

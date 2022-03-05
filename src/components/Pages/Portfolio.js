@@ -46,7 +46,7 @@ const Portfolio = ({ projectInfo }) => {
 
     <section className="py-8 px-4">
       <div className="">
-        <h1 className="font-bold">Portfolio</h1>
+        <h1 className="">Portfolio</h1>
       </div>
 
 

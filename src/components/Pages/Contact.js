@@ -60,7 +60,7 @@ function Contact() {
 
                   {/* end of gradient div */}
                 </div>
-                <div class="bg-dark-orange lg:w-6/12 md:px-0">
+                <div class="bg-orange lg:w-6/12 md:px-0">
                   <div class="md:py-4 md:mx-6">
 
 
@@ -68,7 +68,7 @@ function Contact() {
 
 
                     {/* svg image for chat icons in message box */}
-                    <div className='flex justify-center bg-dark-orange rounded-t-lg'>
+                    <div className='flex justify-center bg-orange rounded-t-lg'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" fill="4e1846" viewBox="0 0 500 400">
                         <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
                           fill="#4e1846" stroke="#b93aa7">

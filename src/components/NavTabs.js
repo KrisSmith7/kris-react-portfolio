@@ -12,22 +12,22 @@ function NavTabs({ currentPage, handlePageChange }) {
     //   }, []);
 
     return (
-        <nav className>
+        <nav className = "flex bg-orange items-end justify-between">
 
-        <ul className="navbar">
-            <li className="navbar-brand">
-                <a
+            <div className="w-24">
+                {/* <a
                     href="#home"
                     //each link uses setter from useState in MainContainer file to change current page
                     onClick={() => handlePageChange('Home')}
                     className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-                >
-                    <div className='w-1/5 h-1/5 bg-dark-orange'>
+                > */}
+                    <div className='w-full h-full'>
                     <img src={purpleIcon} ></img>
                         </div>
-                </a>
-            </li>
-            <li className="nav-item">
+                {/* </a> */}
+            </div>
+        <ul className="nav justify-content-end">
+            <li className="nav-tabs nav-item">
                 <a
                     href="#about"
                     onClick={() => handlePageChange('About')}
@@ -36,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     About
                 </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-tabs nav-item">
                 <a
                     href="#portfolio"
                     onClick={() => handlePageChange('Portfolio')}
@@ -45,7 +45,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     Portfolio
                 </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-tabs nav-item">
                 <a
                     href="#contact"
                     onClick={() => handlePageChange('Contact')}
@@ -54,7 +54,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     Contact
                 </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-tabs nav-item">
                 <a
                     href="#resume"
                     onClick={() => handlePageChange('Resume')}
