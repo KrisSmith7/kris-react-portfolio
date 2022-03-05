@@ -21,7 +21,6 @@
   a .nav-link .active {
     @apply bg-purple
   }
-
  
 }
 
@@ -43,6 +42,9 @@
 
 }
 
+.icon-purple {
+  color: #b93aa7;
+}
 
 body {
   margin: 0;
