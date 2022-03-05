@@ -13,9 +13,14 @@
 
   };
   
-  p, a, span {
+  p, a, span{
     @apply font-chivo;
     @apply text-lg
+  };
+
+  li {
+    @apply font-shrikhand;
+    @apply text-xl
   }
 }
 

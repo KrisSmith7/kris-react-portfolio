@@ -41,15 +41,15 @@ function Contact() {
   };
 
   return (
-    <section className='h-full bg-gray-200 md:h-screen'>
+    <section className='bg-gray h-full'>
       <div className='container py-12 px-6 h-full'>
 
         <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
           <div class="xl:w-10/12">
-            <div class="block bg-white shadow-lg rounded-lg">
+            <div class="block shadow-lg rounded-lg">
               <div class="lg:flex lg:flex-wrap g-0">
                 <div
-                  className="lg:w-6/12 flex items-center bg-gradient-to-br from-orange to-purple lg:rounded-r-lg rounded-b-lg lg:rounded-bl-none"
+                  className="lg:w-6/12 flex items-center bg-royal-purple lg:rounded-l-lg rounded-b-lg lg:rounded-br-none"
                 >
                   <div class="text-white px-4 py-6 md:p-12 md:mx-6">
                     <h1 className='font-semibold mb-6'>Contact me</h1>
@@ -60,18 +60,18 @@ function Contact() {
 
                   {/* end of gradient div */}
                 </div>
-                <div class="lg:w-6/12 px-4 md:px-0">
-                  <div class="md:p-12 md:mx-6">
+                <div class="bg-dark-orange lg:w-6/12 md:px-0">
+                  <div class="md:py-4 md:mx-6">
 
 
 
 
 
                     {/* svg image for chat icons in message box */}
-                    <div className='flex justify-center bg-orange/25 rounded-t-lg p-2'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" fill="b93aa7" viewBox="0 0 500 500">
+                    <div className='flex justify-center bg-dark-orange rounded-t-lg'>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" fill="4e1846" viewBox="0 0 500 400">
                         <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
-                          fill="#b93aa7" stroke="#b93aa7">
+                          fill="#4e1846" stroke="#b93aa7">
                           <path d="M727 3970 c-107 -19 -194 -89 -245 -198 l-27 -57 0 -475 0 -475 29
 -63 c20 -42 47 -80 86 -115 82 -76 140 -92 338 -92 l152 0 0 -223 c0 -194 2
 -223 16 -229 17 -6 17 -7 253 271 l151 178 183 -1 182 -2 0 378 c0 415 -1 407
@@ -100,24 +100,24 @@ c-195 0 -171 11 -293 -135 -158 -190 -262 -310 -270 -313 -4 -2 -8 92 -9 209
 
 
                     </div>
-                    <div className='p-4 border-2 border-orange/25 bg-gray shadow-2xl shadow-purple/50'>
+                    <div className='px-2 py-2 bg-gray rounded-md'>
                       <form id="contact-form" onSubmit={handleFormSubmit}>
-                        <div className='mb-4'>
+                        <div className='px-4 py-8'>
                           {/* <label htmlFor="name">Name:</label> */}
                           <input type="text" name="name" placeholder="What's your name?" className=
-                            "form-control block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-solid border-gray rounded transition ease-in-out m-0"
+                            "form-control"
                             defaultValue={name} onBlur={inputChange} />
                         </div>
-                        <div>
+                        <div className='px-4 pb-8'>
                           {/* <label htmlFor="email">Email address:</label> */}
                           <input type="email" name="email" placeholder="and your email?" className=
-                            "form-control block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-solid border-gray rounded transition ease-in-out m-0"
+                            "form-control"
                             defaultValue={email} onBlur={inputChange} />
                         </div>
-                        <div>
+                        <div className='px-4'>
                           {/* <label htmlFor="message">Message:</label> */}
                           <textarea name="message" rows="5" placeholder="Leave me a message!" className=
-                            "form-control block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-solid border-gray rounded transition ease-in-out m-0"
+                            "form-control"
                             defaultValue={message} onBlur={inputChange} />
                         </div>
                         {errorMessage && (
@@ -125,7 +125,11 @@ c-195 0 -171 11 -293 -135 -158 -190 -262 -310 -270 -313 -4 -2 -8 92 -9 209
                             <p className="error-text text-sm font-bold text-center py-2">{errorMessage}</p>
                           </div>
                         )}
-                        <button type="submit" className="bg-gradient-to-tr from-orange to-purple inline-block px-6 py-2.5 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3">Submit</button>
+                        <button type="submit" className="bg-royal-purple font-shrikhand text-purple text-3xl leading-loose uppercase rounded-md px-24 my-2">
+                       
+                          Submit
+            
+                          </button>
                       </form>
                     </div>
 
