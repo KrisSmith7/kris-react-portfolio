@@ -7,7 +7,7 @@ function Resume() {
 
 {/* container for "download" message */}
             <div className="flex justify-center">
-            <div className="z-50 bg-gradient-to-tl from-purple to-orange/75 shadow-lg shadow-orange border-2 border-orange p-2 rounded-sm"><a
+            <div className="z-50 bg-gradient-to-tl from-purple to-orange/75 shadow-lg shadow-orange border-t-2 border-x-2 border-orange p-2 rounded-sm"><a
                     href="resume/ksmithresumedownload.pdf"
                     download="KSmith-resume"
                     className="no-underline uppercase text-white text-xl">

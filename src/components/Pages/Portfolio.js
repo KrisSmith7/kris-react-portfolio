@@ -57,7 +57,7 @@ const Portfolio = ({ projectInfo }) => {
       >
 
         {/* <!-- Indicators --> */}
-        <div className="carousel-indicators absolute rounded-full bg-gradient-to-l from-orange to-purple right-0 bottom-0 left-0 flex justify-center p-2 mb-4">
+        <div className="carousel-indicators rounded-md bg-gradient-to-l from-orange to-purple right-0 bottom-0 left-0 p-2 mb-4">
           {projPhotos.map((slideButtonChoices, i) => (
             <div key={`slidekey${i}`}>
               <button

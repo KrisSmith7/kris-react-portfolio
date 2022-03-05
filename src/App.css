@@ -8,10 +8,10 @@
   pointer-events: none;
 } */
 
-.portfolio-pic {
+/* .portfolio-pic {
   width: 300px;
   height: 300px;
-}
+} */
 .resume-pic {
   width: 500px;
   height: 700px;
@@ -36,6 +36,20 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.hero-pattern{
+background-image:
+  url('../src/assets/images/page-graphics/hero_bg.png')
+} 
+
+.gradient-bold{
+background-image:
+  url('../src/assets/images/page-graphics/bg-gradient-bold.png')
+} 
+
+.dev-name{
+background-image: url('../src/assets/images/page-graphics/ksmith_texture_landing.png')
 }
 
 @keyframes App-logo-spin {

@@ -1,5 +1,7 @@
 import React from 'react';
-
+import purpleIcon from "../assets/images/page-graphics/svgIcons/woman-iconPurple.svg";
+import orangeIcon from "../assets/images/page-graphics/svgIcons/woman-iconOrange.svg";
+import grayIcon from "../assets/images/page-graphics/svgIcons/woman-iconGray.svg";
 
 //create nav links at top of page that conditionally renders component based on selected link
 function NavTabs({ currentPage, handlePageChange }) {
@@ -10,7 +12,9 @@ function NavTabs({ currentPage, handlePageChange }) {
     //   }, []);
 
     return (
-        <ul className="bg-gray navbar nav-tabs">
+        <nav className>
+
+        <ul className="navbar">
             <li className="navbar-brand">
                 <a
                     href="#home"
@@ -18,9 +22,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                     onClick={() => handlePageChange('Home')}
                     className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
                 >
-                    <span className='text-2xl uppercase'>
-                        Kris Smith
-                        </span>
+                    <div className='w-1/5 h-1/5 bg-dark-orange'>
+                    <img src={purpleIcon} ></img>
+                        </div>
                 </a>
             </li>
             <li className="nav-item">
@@ -60,6 +64,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </a>
             </li>
         </ul>
+
+
+        </nav>
     );
 }
 
