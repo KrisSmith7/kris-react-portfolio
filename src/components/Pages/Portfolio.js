@@ -44,17 +44,18 @@ const Portfolio = ({ projectInfo }) => {
 
   return (
 
-    <section className="bg-gray py-8 px-4">
-      <div className="w-1/2 h-24 shadow-xl rounded-lg -skew-x-12 bg-royal-purple/25">
-        <blockquote className="text-purple font-chicle w-1/2 h-full font-semibold">You can't use up creativity. The more you use, the more you have. -Maya Angelou</blockquote>
+    <section className="bg-gray py-2">
+
+<div className="flex justify-center mt-4">
+      <div className="rounded-md bg-cover flex justify-center items-center h-1/2 w-3/4 hero-pattern">
+        <blockquote className="text-white w-full h-full p-8 rounded-full flex flex-col justify-center items-end font-light italic text-xl">You can't use up creativity. The more you use, the more you have.<span className="font-shrikhand font-normal not-italic tracking-widest p-2">-Maya Angelou</span></blockquote>
       </div>
-
-
+</div>
 
 
       <div
         id="carouselDarkVariant"
-        className="carousel slide carousel-fade carousel-dark relative py-24"
+        className="carousel slide carousel-fade carousel-dark relative pb-20"
         data-bs-ride="carousel"
       >
 
@@ -73,13 +74,13 @@ const Portfolio = ({ projectInfo }) => {
           ))}
         </div>
 
-        <div class="carousel-inner bg-gray/25 py-4 relative w-full overflow-hidden">
+        <div class="carousel-inner relative w-full overflow-hidden">
 
           {/* creates carousel card for each object in projPhoto array      */}
           {projPhotos.map((image, i) => (
             <div className={i === 0 ? 'carousel-item active' : 'carousel-item'}>
 
-              <div className="flex justify-center">
+              <div className="flex justify-center my-8">
                 <div className="flex flex-col w-full md:max-w-xl rounded-lg bg-white shadow-lg">
                   <a href={image.applink} target="_blank">
                     <img className="w-full h-96 object-cover rounded-t-lg transition ease-in-out delay-500 hover:-translate-y-1 hover:scale-110 hover:duration-500" src={
