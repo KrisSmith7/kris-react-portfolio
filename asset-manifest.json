@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kris-react-portfolio/static/css/main.7c0e1690.css",
-    "main.js": "/kris-react-portfolio/static/js/main.6be02fc9.js",
+    "main.css": "/kris-react-portfolio/static/css/main.d4eb2a19.css",
+    "main.js": "/kris-react-portfolio/static/js/main.79ccec1b.js",
     "static/js/787.ff4e73e5.chunk.js": "/kris-react-portfolio/static/js/787.ff4e73e5.chunk.js",
     "static/media/5.gif": "/kris-react-portfolio/static/media/5.c06c70aac9444c5c0683.gif",
     "static/media/resumephoto.png": "/kris-react-portfolio/static/media/resumephoto.28bb3365b5e9d0bdada6.png",
@@ -15,12 +15,12 @@
     "static/media/hero_bg.png": "/kris-react-portfolio/static/media/hero_bg.dd51e5e45c6a4cc996a5.png",
     "static/media/woman-iconPurple.svg": "/kris-react-portfolio/static/media/woman-iconPurple.d602f3a9225d4d4c0836070fe67c68cd.svg",
     "index.html": "/kris-react-portfolio/index.html",
-    "main.7c0e1690.css.map": "/kris-react-portfolio/static/css/main.7c0e1690.css.map",
-    "main.6be02fc9.js.map": "/kris-react-portfolio/static/js/main.6be02fc9.js.map",
+    "main.d4eb2a19.css.map": "/kris-react-portfolio/static/css/main.d4eb2a19.css.map",
+    "main.79ccec1b.js.map": "/kris-react-portfolio/static/js/main.79ccec1b.js.map",
     "787.ff4e73e5.chunk.js.map": "/kris-react-portfolio/static/js/787.ff4e73e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c0e1690.css",
-    "static/js/main.6be02fc9.js"
+    "static/css/main.d4eb2a19.css",
+    "static/js/main.79ccec1b.js"
   ]
 }
