@@ -1,15 +1,13 @@
-import React from 'react';
+import {React, useEffect} from 'react';
 import purpleIcon from "../assets/images/page-graphics/svgIcons/woman-iconPurple.svg";
-import orangeIcon from "../assets/images/page-graphics/svgIcons/woman-iconOrange.svg";
-import grayIcon from "../assets/images/page-graphics/svgIcons/woman-iconGray.svg";
 
 //create nav links at top of page that conditionally renders component based on selected link
 function NavTabs({ currentPage, handlePageChange }) {
   
     
-    // useEffect(() => {
-
-    //   }, []);
+    useEffect(() => {
+setTimeout((page) => { handlePageChange('About')}, 2000)
+      }, []);
 
     return (
         <nav className = "flex bg-orange items-end justify-between">
@@ -21,8 +19,8 @@ function NavTabs({ currentPage, handlePageChange }) {
                     onClick={() => handlePageChange('Home')}
                     className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
                 > */}
-                    <div className='w-full h-full'>
-                    <img src={purpleIcon} ></img>
+                    <div className='flex items-center'>
+                    <img src={purpleIcon}></img>
                         </div>
                 {/* </a> */}
             </div>

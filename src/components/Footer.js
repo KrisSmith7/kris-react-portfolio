@@ -6,7 +6,7 @@ function Footer() {
          <div className="w-full h-full flex justify-center">
           <div className='px-4'>
           <a href='https://github.com/KrisSmith7' target="_blank">
-            <i className="bi-github icon-purple scale-125"></i>
+            <i className="bi-github icon-purple"></i>
           </a>
           </div>
           <div className='px-4'>
