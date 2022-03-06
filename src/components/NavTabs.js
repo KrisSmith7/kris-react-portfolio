@@ -6,24 +6,18 @@ function NavTabs({ currentPage, handlePageChange }) {
   
     
     useEffect(() => {
-setTimeout((page) => { handlePageChange('About')}, 2000)
+setTimeout((page) => { handlePageChange('About')}, 3000)
       }, []);
 
     return (
         <nav className = "flex bg-orange items-end justify-between">
 
             <div className="w-24">
-                {/* <a
-                    href="#home"
-                    //each link uses setter from useState in MainContainer file to change current page
-                    onClick={() => handlePageChange('Home')}
-                    className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-                > */}
                     <div className='flex items-center'>
                     <img src={purpleIcon}></img>
                         </div>
-                {/* </a> */}
             </div>
+                    {/* each link uses setter from useState in MainContainer file to change current page */}
         <ul className="nav justify-content-end">
             <li className="nav-tabs nav-item">
                 <a
