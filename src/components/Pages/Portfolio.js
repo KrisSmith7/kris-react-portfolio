@@ -50,7 +50,7 @@ const Portfolio = ({ projectInfo }) => {
       <div className="bg-cover h-1/2 w-full hero-pattern rounded-b-lg">
         <div className="bg-royal-purple/25 w-full rounded-md py-2">
 
-        <blockquote className="text-white flex flex-col items-end font-light italic text-xl px-2">You can't use up creativity. The more you use, the more you have.<span className="font-shrikhand font-normal not-italic tracking-widest">-Maya Angelou</span></blockquote>
+          <blockquote className="text-white flex flex-col items-end font-light italic text-xl px-2">You can't use up creativity. The more you use, the more you have.<span className="font-shrikhand font-normal not-italic tracking-widest">-Maya Angelou</span></blockquote>
         </div>
       </div>
 
@@ -122,9 +122,6 @@ const Portfolio = ({ projectInfo }) => {
         </div>
 
       </div>
-
-
-
     </section>
   );
 };
