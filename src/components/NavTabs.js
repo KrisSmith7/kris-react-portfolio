@@ -53,7 +53,7 @@ setTimeout((page) => { handlePageChange('About')}, 5000)
                     onClick={() => handlePageChange('Resume')}
                     className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                 >
-                    Resume
+                    Resumé
                 </a>
             </li>
         </ul>

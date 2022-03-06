@@ -25,7 +25,7 @@ function Resume() {
             </div>
           
            {/* image of resume as a link */}
-             <div className="">
+             <div>
                     <a
                         href="resume/ksmithresumedownload.pdf"
                         download="KSmith-resume" >
