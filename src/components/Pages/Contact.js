@@ -42,9 +42,9 @@ function Contact() {
 
   return (
     <section className='bg-gray h-full'>
-      <div className='container py-12 px-6 h-full'>
+      <div className='container mx-auto py-12 px-6 h-full'>
 
-        <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
+        <div className="h-full g-6 text-gray-800">
           <div class="xl:w-10/12">
             <div class="block shadow-lg rounded-lg">
               <div class="lg:flex lg:flex-wrap g-0">
@@ -130,7 +130,7 @@ c-195 0 -171 11 -293 -135 -158 -190 -262 -310 -270 -313 -4 -2 -8 92 -9 209
                         )}
                         <div className="w-full flex justify-center">
 
-                        <button type="submit" className="bg-purple/[.80] font-shrikhand text-royal-purple font-medium text-3xl leading-loose uppercase rounded-md px-24 my-2">
+                        <button type="submit" className="bg-purple/[.80] font-shrikhand text-royal-purple font-medium text-3xl leading-loose uppercase rounded-md px-12 lg:px-24 my-2">
                        
                           Submit
             

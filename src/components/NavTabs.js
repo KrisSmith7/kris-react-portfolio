@@ -13,9 +13,9 @@ setTimeout((page) => { handlePageChange('About')}, 5000)
         <nav className = "flex bg-orange items-end justify-between">
 
             <div className="w-24">
-                    <div className='flex'>
+                    <div className='flex flex-col md:flex-row items-end'>
                     <img src={purpleIcon}></img>
-                    <p className='w-24 font-shrikhand text-royal-purple'>Kris Smith</p>
+                    <p className='w-24 font-shrikhand text-royal-purple text-sm text-center'>Kris Smith</p>
                         </div>
             </div>
                     {/* each link uses setter from useState in MainContainer file to change current page */}
