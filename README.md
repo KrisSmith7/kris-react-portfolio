@@ -10,7 +10,7 @@
 
 
 ## Deployed application
- You can view my portfolio by visiting [link to deployed application here.](https://budget-tracks789.herokuapp.com/)
+ You can view my portfolio by visiting [link to deployed application here.](https://krissmith7.github.io/kris-react-portfolio/)
 
 ![screenshot of application](./src/assets/images/app-screenshot.png)
 
