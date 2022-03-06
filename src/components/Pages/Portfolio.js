@@ -44,16 +44,16 @@ const Portfolio = ({ projectInfo }) => {
 
   return (
 
-    <section className="bg-gray py-2">
+    <section className="bg-gray">
 
-<div className="flex justify-center mt-4">
-      <div className="rounded-md bg-cover flex justify-center items-center h-1/2 w-3/4 hero-pattern p-2">
-        <div className="bg-royal-purple/25 w-full rounded-md">
 
-        <blockquote className="text-white flex flex-col justify-center items-end font-light italic text-xl">You can't use up creativity. The more you use, the more you have.<span className="font-shrikhand font-normal not-italic tracking-widest">-Maya Angelou</span></blockquote>
+      <div className="bg-cover h-1/2 w-full hero-pattern rounded-b-lg">
+        <div className="bg-royal-purple/25 w-full rounded-md py-2">
+
+        <blockquote className="text-white flex flex-col items-end font-light italic text-xl px-2">You can't use up creativity. The more you use, the more you have.<span className="font-shrikhand font-normal not-italic tracking-widest">-Maya Angelou</span></blockquote>
         </div>
       </div>
-</div>
+
 
 
       <div

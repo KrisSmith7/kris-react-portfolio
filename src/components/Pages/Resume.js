@@ -14,7 +14,7 @@ function Resume() {
                     <a
                     href="resume/ksmithresumedownload.pdf"
                     download="KSmith-resume"
-                    className="no-underline text-gray font-shrikhand hover:text-orange">
+                    className="no-underline text-gray font-shrikhand font-normal tracking-wider hover:text-orange">
                     Click here or the image to download a copy.</a>
                     </p>
                     </div>

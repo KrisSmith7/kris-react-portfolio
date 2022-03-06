@@ -6,7 +6,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   
     
     useEffect(() => {
-setTimeout((page) => { handlePageChange('About')}, 3000)
+setTimeout((page) => { handlePageChange('About')}, 5000)
       }, []);
 
     return (

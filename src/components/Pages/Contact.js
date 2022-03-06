@@ -51,7 +51,7 @@ function Contact() {
                 <div
                   className="lg:w-6/12 flex justify-center items-center bg-gradient-to-b lg:bg-gradient-to-r from-royal-purple via-purple to-orange"
                 >
-                  <div class="h-5/6 flex flex-col items-center justify-between py-12 text-gray bg-royal-purple/[.65] rounded-lg m-6 p-6">
+                  <div class="h-5/6 flex flex-col items-center justify-between text-gray bg-royal-purple/[.65] rounded-lg m-4 p-4">
                     <h1>Contact me</h1>
                     <div className="text-center md:text-right">
                     <p className="font-light">PHONE : (919) 410-7372</p>
