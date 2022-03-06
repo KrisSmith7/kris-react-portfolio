@@ -31,7 +31,7 @@ function About() {
                     <div className="bg-royal-purple rounded-md w-1/3 px-4 pt-4 text-gray">
                         <div className="flex flex-col h-full justify-center items-center">
                         <h1 className="text-3xl">Who's That Girl?</h1>
-                        <p className="leading-loose text-center">Howdy! I love building big, bold, and beautiful applications. Web dev can be challenging, but I love the logic and complexities behind it and have always been fascinated by the amazing things we can create. Takes beauty, brains, and a little magic to code and I am here for it. <br /> If I'm not behind a computer, you can usually find me with my family -- watching a game, relaxing in the mountains, or hunting down a good trivia spot.</p>
+                        <p className="leading-loose text-justify">Howdy! I love building big, bold, and beautiful applications. Web dev can be challenging, but I love the logic and complexities behind it and have always been fascinated by the amazing things we can create. Takes beauty, brains, and a little magic to code and I am here for it. <br /> If I'm not behind a computer, you can usually find me with my family -- watching a game, relaxing in the mountains, or hunting down a good trivia spot.</p>
                        </div>
                     </div>
             </div>

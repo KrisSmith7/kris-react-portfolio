@@ -49,13 +49,14 @@ function Contact() {
             <div class="block shadow-lg rounded-lg">
               <div class="lg:flex lg:flex-wrap g-0">
                 <div
-                  className="lg:w-6/12 flex items-center bg-royal-purple lg:rounded-l-lg rounded-b-lg lg:rounded-br-none"
+                  className="lg:w-6/12 flex justify-center items-center bg-gradient-to-b lg:bg-gradient-to-r from-royal-purple via-purple to-orange"
                 >
-                  <div class="text-white px-4 py-6 md:p-12 md:mx-6">
-                    <h1 className='font-semibold mb-6'>Contact me</h1>
-                    <p>Phone: (919) 410-7372<br />
-                      Email: krissmithcodes@gmail.com
-                    </p>
+                  <div class="h-5/6 flex flex-col items-center justify-between py-12 text-gray bg-royal-purple/[.65] rounded-lg m-6 p-6">
+                    <h1>Contact me</h1>
+                    <div className="text-center md:text-right">
+                    <p className="font-light">PHONE : (919) 410-7372</p>
+                     <a href="mailto:krissmithcodes@gmail.com" className="no-underline text-gray font-light hover:text-orange cursor-pointer"> EMAIL : krissmithcodes@gmail.com </a>
+                    </div>
 
 
                   </div>
@@ -112,7 +113,7 @@ c-195 0 -171 11 -293 -135 -158 -190 -262 -310 -270 -313 -4 -2 -8 92 -9 209
                         </div>
                         <div className='px-4 pb-8'>
                           {/* <label htmlFor="email">Email address:</label> */}
-                          <input type="email" name="email" placeholder="and your email?" className=
+                          <input type="email" name="email" placeholder="Your email?" className=
                             "form-control"
                             defaultValue={email} onBlur={inputChange} />
                         </div>
@@ -127,11 +128,14 @@ c-195 0 -171 11 -293 -135 -158 -190 -262 -310 -270 -313 -4 -2 -8 92 -9 209
                             <p className="error-text text-sm font-bold text-center py-2">{errorMessage}</p>
                           </div>
                         )}
-                        <button type="submit" className="bg-royal-purple font-shrikhand text-purple text-3xl leading-loose uppercase rounded-md px-24 my-2">
+                        <div className="w-full flex justify-center">
+
+                        <button type="submit" className="bg-purple/[.80] font-shrikhand text-royal-purple font-medium text-3xl leading-loose uppercase rounded-md px-24 my-2">
                        
                           Submit
             
                           </button>
+                        </div>
                       </form>
                     </div>
 
