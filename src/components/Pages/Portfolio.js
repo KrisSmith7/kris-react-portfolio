@@ -5,6 +5,12 @@ const Portfolio = ({ projectInfo }) => {
 
   const [projPhotos] = useState([
     {
+      title: 'Social Rolls',
+      desc: "Social Rolls is an application that allows Dungeons and Dragons enthusiasts to share posts in a forum with other users, store their character sheets, and offers a resource for beginners to learn about the world of DnD.",
+      applink: 'https://socialrolls.herokuapp.com/',
+      githublink: 'https://github.com/KrisSmith7/roll-initiative',
+    },
+    {
       title: 'Media Gems',
       desc: "Media Gems is an application that allows authenticated users to select a streaming service and look at reviews for popular shows on that particular service.",
       applink: 'https://gentle-dusk-15958.herokuapp.com/',
@@ -87,7 +93,7 @@ const Portfolio = ({ projectInfo }) => {
                 <div className="flex flex-col w-full md:max-w-xl rounded-lg bg-white shadow-lg">
                   <a href={image.applink} target="_blank">
                     <img className="w-full h-96 object-cover rounded-t-lg transition ease-in-out delay-500 hover:-translate-y-1 hover:scale-110 hover:duration-500" src={
-                      i === 5 ? require(`../../assets/images/projects/5.gif`) : require(`../../assets/images/projects/${i}.png`)} alt={`Photo of ${image.title} Project`} />
+                      i === 6 ? require(`../../assets/images/projects/6.gif`) : require(`../../assets/images/projects/${i}.png`)} alt={`Photo of ${image.title} Project`} />
                   </a>
                   <div className="p-6 flex flex-col justify-start">
                     <h5 className="text-gray-900 text-xl font-medium mb-2">{image.title}</h5>
