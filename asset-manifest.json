@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/kris-react-portfolio/static/css/main.d4eb2a19.css",
-    "main.js": "/kris-react-portfolio/static/js/main.79ccec1b.js",
+    "main.js": "/kris-react-portfolio/static/js/main.1b5077f4.js",
     "static/js/787.ff4e73e5.chunk.js": "/kris-react-portfolio/static/js/787.ff4e73e5.chunk.js",
-    "static/media/5.gif": "/kris-react-portfolio/static/media/5.c06c70aac9444c5c0683.gif",
+    "static/media/6.gif": "/kris-react-portfolio/static/media/6.c06c70aac9444c5c0683.gif",
+    "static/media/0.png": "/kris-react-portfolio/static/media/0.bfc999b2db08c53e4217.png",
     "static/media/resumephoto.png": "/kris-react-portfolio/static/media/resumephoto.28bb3365b5e9d0bdada6.png",
-    "static/media/1.png": "/kris-react-portfolio/static/media/1.f000aab35c14c468b53b.png",
-    "static/media/0.png": "/kris-react-portfolio/static/media/0.1dee67a902da22ca781f.png",
-    "static/media/4.png": "/kris-react-portfolio/static/media/4.91d21d6836f6af8d746e.png",
-    "static/media/3.png": "/kris-react-portfolio/static/media/3.cc87cbfc0126afa8154c.png",
-    "static/media/2.png": "/kris-react-portfolio/static/media/2.69927d49bdd20a703bac.png",
+    "static/media/2.png": "/kris-react-portfolio/static/media/2.f000aab35c14c468b53b.png",
+    "static/media/1.png": "/kris-react-portfolio/static/media/1.1dee67a902da22ca781f.png",
+    "static/media/5.png": "/kris-react-portfolio/static/media/5.91d21d6836f6af8d746e.png",
+    "static/media/4.png": "/kris-react-portfolio/static/media/4.cc87cbfc0126afa8154c.png",
+    "static/media/3.png": "/kris-react-portfolio/static/media/3.69927d49bdd20a703bac.png",
     "static/media/ksmith_texture_landing.png": "/kris-react-portfolio/static/media/ksmith_texture_landing.917e753d1d36d24ada6d.png",
     "static/media/bg-gradient-bold.png": "/kris-react-portfolio/static/media/bg-gradient-bold.2af3840241aa7be6f996.png",
     "static/media/hero_bg.png": "/kris-react-portfolio/static/media/hero_bg.dd51e5e45c6a4cc996a5.png",
     "static/media/woman-iconPurple.svg": "/kris-react-portfolio/static/media/woman-iconPurple.d602f3a9225d4d4c0836070fe67c68cd.svg",
     "index.html": "/kris-react-portfolio/index.html",
     "main.d4eb2a19.css.map": "/kris-react-portfolio/static/css/main.d4eb2a19.css.map",
-    "main.79ccec1b.js.map": "/kris-react-portfolio/static/js/main.79ccec1b.js.map",
+    "main.1b5077f4.js.map": "/kris-react-portfolio/static/js/main.1b5077f4.js.map",
     "787.ff4e73e5.chunk.js.map": "/kris-react-portfolio/static/js/787.ff4e73e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4eb2a19.css",
-    "static/js/main.79ccec1b.js"
+    "static/js/main.1b5077f4.js"
   ]
 }
