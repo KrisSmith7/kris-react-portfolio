@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kris-react-portfolio/static/css/main.d4eb2a19.css",
-    "main.js": "/kris-react-portfolio/static/js/main.1b5077f4.js",
+    "main.js": "/kris-react-portfolio/static/js/main.d836efcd.js",
     "static/js/787.ff4e73e5.chunk.js": "/kris-react-portfolio/static/js/787.ff4e73e5.chunk.js",
     "static/media/6.gif": "/kris-react-portfolio/static/media/6.c06c70aac9444c5c0683.gif",
     "static/media/0.png": "/kris-react-portfolio/static/media/0.bfc999b2db08c53e4217.png",
@@ -17,11 +17,11 @@
     "static/media/woman-iconPurple.svg": "/kris-react-portfolio/static/media/woman-iconPurple.d602f3a9225d4d4c0836070fe67c68cd.svg",
     "index.html": "/kris-react-portfolio/index.html",
     "main.d4eb2a19.css.map": "/kris-react-portfolio/static/css/main.d4eb2a19.css.map",
-    "main.1b5077f4.js.map": "/kris-react-portfolio/static/js/main.1b5077f4.js.map",
+    "main.d836efcd.js.map": "/kris-react-portfolio/static/js/main.d836efcd.js.map",
     "787.ff4e73e5.chunk.js.map": "/kris-react-portfolio/static/js/787.ff4e73e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4eb2a19.css",
-    "static/js/main.1b5077f4.js"
+    "static/js/main.d836efcd.js"
   ]
 }
