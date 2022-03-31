@@ -41,10 +41,10 @@ function Contact() {
   };
 
   return (
-    <section className='bg-gray h-full'>
-      <div className='container mx-auto py-12 px-6 h-full'>
+    <section className='bg-gray h-full w-full flex'>
+      <div className='mx-auto py-12 px-6 h-full'>
 
-        <div className="h-full g-6 text-gray-800">
+        <div className="h-full text-gray-800">
           <div class="xl:w-10/12">
             <div class="block shadow-lg rounded-lg">
               <div class="lg:flex lg:flex-wrap g-0">
@@ -103,22 +103,19 @@ function Contact() {
 
 
                     </div>
-                    <div className='px-2 py-2 bg-gray rounded-md'>
+                    {/* <div className='px-2 py-2 bg-gray rounded-md'>
                       <form id="contact-form" onSubmit={handleFormSubmit}>
                         <div className='px-4 py-8'>
-                          {/* <label htmlFor="name">Name:</label> */}
                           <input type="text" name="name" placeholder="What's your name?" className=
                             "form-control"
                             defaultValue={name} onBlur={inputChange} />
                         </div>
                         <div className='px-4 pb-8'>
-                          {/* <label htmlFor="email">Email address:</label> */}
                           <input type="email" name="email" placeholder="Your email?" className=
                             "form-control"
                             defaultValue={email} onBlur={inputChange} />
                         </div>
                         <div className='px-4'>
-                          {/* <label htmlFor="message">Message:</label> */}
                           <textarea name="message" rows="5" placeholder="Leave me a message!" className=
                             "form-control"
                             defaultValue={message} onBlur={inputChange} />
@@ -136,7 +133,7 @@ function Contact() {
 
                         </div>
                       </form>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
