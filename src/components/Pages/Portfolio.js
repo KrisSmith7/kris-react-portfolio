@@ -7,42 +7,49 @@ const Portfolio = ({ projectInfo }) => {
     {
       title: 'Social Rolls',
       desc: "Social Rolls is an application that allows Dungeons and Dragons enthusiasts to share posts in a forum with other users, store their character sheets, and offers a resource for beginners to learn about the world of DnD.",
+      techs: "Javascript, React, Tailwind, Node.js, Express.js, GraphQL, MongoDB, Heroku",
       applink: 'https://socialrolls.herokuapp.com/',
       githublink: 'https://github.com/KrisSmith7/roll-initiative',
     },
     {
       title: 'Media Gems',
       desc: "Media Gems is an application that allows authenticated users to select a streaming service and look at reviews for popular shows on that particular service.",
+      techs: "Javascript, MySQL, Bcrypt, Handlebars.js, Express.js, Tailwind, Heroku",
       applink: 'https://gentle-dusk-15958.herokuapp.com/',
       githublink: 'https://github.com/KrisSmith7/media-gems',
     },
     {
       title: 'Weather Dashboard',
       desc: "Weather Dashboard allows users to search the weather in US cities and stores recent searches using the localStorageAPI. This application uses the Open Weather Map API for its weather data.",
+      techs: "Javascript, Tailwind, Web and Third-Party APIs, HTML, Github Pages",
       applink: 'https://krissmith7.github.io/weather-dashboard/',
       githublink: 'https://github.com/KrisSmith7/weather-dashboard',
     },
     {
       title: 'Password Generator',
       desc: "This application will allow users to generate a random password. Offers users a choice of uppercase characters, lowercase characters, special characters and/or numbers and will allow them to choose a length between 8-128 characters.",
+      techs: "Javascript, Web APIs, HTML, CSS, Github Pages",
       applink: 'https://krissmith7.github.io/password-generator/',
       githublink: 'https://github.com/KrisSmith7/password-generator',
     },
     {
       title: 'Javascript Quiz',
       desc: "This project incorporates javascript to create a timed quiz. When the timer expires, players will be able to save their scores in local storage so that they may see them at a later time.",
+      techs: "Javascript, CSS, Web API, HTML, Github Pages",
       applink: 'https://krissmith7.github.io/coded-js-quiz/',
       githublink: 'https://github.com/KrisSmith7/coded-js-quiz',
     },
     {
       title: 'Workday Scheduler',
       desc: "This calendar application allows a user to plan and save events for each hour of the current day (8am-5pm). The application uses JQuery, Bootstrap, and Moment.js APIs for its interface and functionality.",
+      techs: "Javascript, JQuery, Bootstrap, Third-Party API, CSS",
       applink: 'https://krissmith7.github.io/workday-scheduler/',
       githublink: 'https://github.com/KrisSmith7/workday-scheduler',
     },
     {
       title: 'CryptoQuotes',
       desc: "This application shows a snapshot of users' cryptocurrency values today compared to the value of when they bought it and provides the user with a motivational or inspirational quote based on if the user has gained or lost.",
+      techs: "Javascript, Tailwind, Third-Party APIs, HTML, Github Pages",
       applink: 'https://krissmith7.github.io/cryptoquotes/',
       githublink: 'https://github.com/KrisSmith7/cryptoquotes',
     },
@@ -96,9 +103,15 @@ const Portfolio = ({ projectInfo }) => {
                       i === 6 ? require(`../../assets/images/projects/6.gif`) : require(`../../assets/images/projects/${i}.png`)} alt={`Photo of ${image.title} Project`} />
                   </a>
                   <div className="p-6 flex flex-col justify-start">
-                    <h5 className="text-gray-900 text-xl font-medium mb-2">{image.title}</h5>
-                    <p className="text-gray-700 text-base mb-4">
+                    <h5 className="text-gray-900 text-xl font-bold mb-2">{image.title}</h5>
+                    <p className="text-gray-700 text-sm mb-4">
                       {image.desc}
+                    </p>
+                    <p className="mb-4 font-semibold text-base">
+                      Tools/Languages Used:
+                      <span className="ml-2 font-normal text-sm">
+                        {image.techs}
+                        </span>
                     </p>
                     <a href={image.githublink} target="_blank"><button type="button" className=" inline-block px-6 py-2.5 bg-purple text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-orange hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange/50 active:shadow-lg transition duration-150 ease-in-out">Visit the Github Repo</button></a>
                   </div>
