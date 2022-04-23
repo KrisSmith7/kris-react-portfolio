@@ -12,10 +12,10 @@ function Resume() {
                     <div className="lg:w-3/4 lg:h-1/2 flex items-center justify-center order-2 bg-royal-purple/50 rounded-md uppercase text-2xl p-4">
                         <p className="font-shrikhand text-gray">
                             <a
-                                href="resume/ksmithresumedownload.pdf"
-                                download="KSmith-resume"
+                                href="\resume\Kris_Smith_Resume.pdf"
+                                download="KSmith_resume"
                                 className="no-underline text-gray font-shrikhand font-normal tracking-wider hover:text-orange">
-                                Click here or on the image to download a full version of my resume.</a>
+                                Click here or on the image to download a detailed version of my resume.</a>
                         </p>
                     </div>
 
